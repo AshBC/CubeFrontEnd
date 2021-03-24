@@ -1,0 +1,127 @@
+
+.main-video__info-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    font-family: "avenir-bold";
+    background-color: white;
+    width: 80vw;
+    padding-top: 1.5rem;
+
+    @include desktop{
+        width: 90%;
+    }
+}
+.container{
+    display: flex;
+
+}
+.by{
+    width: 15rem;
+    margin-right: 0.65rem;
+    font-family: sans-serif;
+    color: $color-dark-green;
+
+    @include tablet{
+        font-size: 1rem;
+    }
+}
+.date{
+    width: 15rem;
+    padding-right: 0.65rem;
+    font-family: sans-serif; 
+    color: $color-dark-green;
+
+    @include tablet{
+        font-size: 1rem;
+    }
+}
+
+.likes{
+    display: flex;
+    margin-right: 1rem;
+    color: #AFAFAF;
+    width: 10%;
+    height: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.views{
+    display: flex;
+    color: #AFAFAF;
+    width: 10%;
+    height: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.counter{
+    display: flex;
+}
+.icons{
+    padding-right: 0.65rem;
+    width: 30px;
+    height: 30px;
+}
+.icon-ear{
+    padding-right: 0.65rem;
+    width: 40px;
+    height: 40px;
+}
+.VRinstructions{
+    width: 90%;
+    color: $color-light-grass-green;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing:1px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include tablet{
+        width: 60%;
+    }
+    @mixin tabletExt{
+        width: 60%;
+    }
+    @include desktop{
+        width: 60%;
+    }
+    @include desktopWide{
+        width: 90%;
+    }
+}
+
+.body{
+    font-family: "avenir-next-light";
+    width: 90%;
+    font-size: 1rem;
+    color: $color-dark-green;
+    letter-spacing: 0.5px;
+
+    @include tablet{
+        width: 60%;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    @include desktop{
+        width: 60%;
+    }
+}
+.audio{
+    width: 15rem;
+    height: 10rem;
+}
+.audio-title{
+    width: 90%;
+    color: $color-light-grass-green;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing:1px;
+
+    @include tablet{
+        width: 90%;
+    }
+    @include desktop{
+        width: 90%;
+    }
+}

@@ -1,0 +1,75 @@
+.trending-page{
+    width: 100vw;
+}
+.trending-title{
+    background-color: rgb(226, 168, 168);
+    color: #16251c;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 0;
+    margin-top: 0;
+}
+.trending-tip{
+    display: flex;
+    flex-direction: column;
+    border: rgb(226, 168, 168) solid 2px;
+    color: #16251c;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 1.3rem;
+    padding-right: 0.65rem;
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 87vw;
+
+    @include tablet{
+    margin: 0;
+    width: 42vw;
+    height: 68vh;
+    font-size: 1.3rem;
+    } 
+    @include desktop{
+        height: 70vh;
+        font-size: 1.3rem;
+    }
+}
+
+.trending-video{
+    width: 90vw;
+    @include tablet{
+    width: 49vw;
+    }  
+    @include desktop{
+        width: 43vw;
+        height:74vh;
+    }
+}
+
+.container-right{
+    width:90vw;
+    margin-left: 2rem;
+
+    @include tablet{
+    width: 40vw;
+    position: absolute;
+    left: 50%;
+    }
+}
+.container-left{
+    width: 90vw;
+    margin-left: 2rem;
+    @include tablet{
+    margin-left: 1rem;
+    }
+    @include desktop{
+        margin-left: 3.5rem;
+    }
+}

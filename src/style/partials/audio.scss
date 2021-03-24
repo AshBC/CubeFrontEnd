@@ -1,0 +1,16 @@
+.audio{
+    visibility: visible;
+    width: 100%;
+    @include tablet{
+        width: 70%;
+    }
+    @include desktop{
+        width: 80%;
+    }
+    @include desktopWide{
+        width: 65%;
+    }
+}
+.empty{
+    visibility: hidden;
+}

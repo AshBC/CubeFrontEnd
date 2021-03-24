@@ -1,0 +1,47 @@
+@mixin tablet{
+    @media screen and (min-width: 710px){
+    @content;
+    } 
+}
+
+.art-select {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(rgb(226, 168, 168), 0.8);
+    border: #16251c 3px solid;
+    color: #16251c;
+    border-radius: 2px;
+    max-width: 6.5rem;
+    min-width: 5.5rem;
+    max-height: 3.33rem;
+    min-height: 3.33rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 0.65rem;
+
+    @include tablet {
+        min-height: 4.33rem;
+        max-height: 4.33rem;
+        margin-left: 1rem; 
+        font-size: 1.2rem;
+        font-family: sans-serif;
+        max-width: 8rem;
+        min-width: 8rem;
+        padding-left:0.65rem;
+    }
+    @include desktop{
+        max-width: 12rem;
+        min-width: 12rem;
+        max-height: 3.1rem;
+        min-height: 3.1rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+} 
+select{
+    text-align: center;
+}
+  
+  

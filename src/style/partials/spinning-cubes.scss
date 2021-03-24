@@ -1,0 +1,193 @@
+$color-light-gray: #ecf0f1;
+$color-medium-gray: #bdc3c7;
+$color-dark-gray: #34495e;
+$color-light-green: #427c5a;
+$color-medium-green: #20864b;
+
+$cube-size: 40vh;
+$animation-duration: 12s;
+
+
+.allCubes{
+    display: flex;
+    justify-content: space-between;
+    width:75%;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 12rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    perspective: 900px;
+
+    @include tabletExt{
+      width: 90%;
+    }
+
+    @include desktop{
+      width:70%;
+    }
+    @include desktopWide{
+      width:84%;
+    }
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-paragraph{
+
+  justify-content: center;
+  color: $color-dark-green;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  font-size: 1.5rem;
+  width: 77vw;
+  &-sub{
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: center;
+    width: 69%;
+  }
+  @include tablet{
+    width: 80vw
+  }
+}
+
+.cube {
+  width: 25vh;
+  height: 25vh;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate $animation-duration linear infinite;
+  background-color: transparent;
+  
+  @include tablet{
+    width: 30vh;
+    height: 30vh;
+  }
+  @include tabletExt{
+    width: 30vh;
+    height: 30vh;
+  }
+  @include desktop{
+    margin-left: 3rem;
+    width: 40vh;
+    height: 40vh;
+  }
+  @mixin desktopWide{
+    width: 40vh;
+    height: 40vh;
+  }
+ 
+  &:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: rotateX(90deg) translateY($cube-size/2) translateZ(-$cube-size/2);
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  div {
+    background-color: rgba($color-light-green, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $color-dark-gray;
+    box-shadow: 0 0 60px rgba($color-light-green, 0.7);
+    
+    // Back face
+    &:nth-child(1) {
+      transform: translateZ(-$cube-size/8);
+        animation: $animation-duration linear infinite;
+
+        @include tablet{
+          transform: translateZ(-$cube-size/3.9);
+        }
+        @include tabletExt{
+          transform: translateZ(-$cube-size/3.9);
+        }
+        @include desktop{
+          transform: translateZ(-$cube-size/2);
+        }
+        @mixin desktopWide{
+          transform: translateZ(-$cube-size/8);
+        }
+    } 
+    
+    // Front face
+    &:nth-child(2) {
+      transform: translateZ($cube-size/2) rotateY(180deg);
+      animation: $animation-duration linear infinite;
+      background-color: rgba(rgb(226, 168, 168), 0.8);
+    }
+    
+    // Right face
+    &:nth-child(3) {
+      transform-origin: right;
+      transform: translateZ($cube-size/2) rotateY(270deg);
+      animation: $animation-duration linear infinite;
+    }
+    
+    // Left face
+    &:nth-child(4) {
+      transform-origin: left;
+      transform: translateZ($cube-size/2) rotateY(90deg);
+      animation: $animation-duration/4 linear infinite;
+    }
+    
+    // Bottom face
+    &:nth-child(5) {
+      transform-origin: bottom;
+      transform: translateZ($cube-size/2) rotateX(90deg);
+      background-color: rgba(black, 0.7);
+    }
+    
+    // Top face
+    &:nth-child(6) {
+      transform-origin: top;
+      transform: translateZ($cube-size/2) rotateX(270deg);
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(-15deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(-15deg) rotateY(360deg);
+  }
+}
+
+@keyframes shade {
+  50% {
+    background-color: rgba(black, 0.7);
+  }
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+
+  @include tablet{
+    font-size: 30px;
+  }
+  @include desktopWide{
+    font-size: 35px;
+  }
+}

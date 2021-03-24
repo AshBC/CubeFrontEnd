@@ -1,0 +1,65 @@
+.buy-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 60vw;
+    @include tablet{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100vw;
+    }
+}
+.list-item{
+    background-color: white;
+    width: 50vw;
+}
+.link-box{
+    text-decoration: none;
+}
+.art-image{
+    width: 70vw;
+    
+    @include tablet{
+    align-self: center;
+    align-items: center;
+    width:80%;
+    height: 400px;
+    margin-top: 2rem;
+}
+}
+.artwork-title_frame{
+    width: 50vw;
+    height: 25vh;
+    margin-top: 1rem;
+}
+.artT{
+    text-decoration: none;
+    color: #16251c;
+    font-family: sans-serif;
+    font-size: 19px;
+    @include tablet{
+    font-weight: 600;
+    font-size: 20px;
+}
+}
+.artDescription{
+    text-decoration: none;
+    color: #2b4d39;
+    font-family: sans-serif;
+    font-size: 16px;
+
+    @include tablet{
+    font-weight: 600;
+    font-size: 17px;
+}
+}
+
+.seller{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}

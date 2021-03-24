@@ -1,0 +1,115 @@
+@mixin tablet{
+    @media screen and (min-width: 710px){
+    @content;
+    } 
+}
+@mixin tabletExt{
+    @media screen and (min-width: 960px){
+    @content;    
+    }
+}
+@mixin desktop{
+    @media screen and (min-width: 1080px){
+    @content;
+    }
+}
+@mixin desktopWide{
+    @media screen and (min-width: 1230px){
+     @content;   
+    }
+}
+
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    @include tablet{
+        width: 60%;
+        float: left;
+    }
+    @include desktop{
+        max-width: 40%;
+        min-width: 30%;
+        flex-wrap: wrap;
+        justify-content: right;
+        position: absolute;
+        right: -0.7%;
+        top: 80%;
+    }
+    @include desktopWide{
+        top:110%;
+    }
+}
+.list-item{
+    list-style-type: none;
+
+    @include tablet{
+        width: 30%;
+    }
+}
+.vid-title_name{
+    width: 50%;
+    position: absolute;
+    top: 5;
+    right: 0;
+    font-family: "avenir-next-light";
+    font-size: 1rem;
+    color: $color-dark-green;
+    @include tablet{
+        position: absolute;
+        top: 10;
+        left: 0;
+        width: 30%;
+        font-family: "avenir-medium";
+        font-size: 0.65rem;
+        margin-left: 15rem;
+        }
+    @include desktop{
+        margin-left: 17rem;
+    }
+    @include desktopWide{
+        margin-left: 18rem;
+    }
+}
+.vidT{
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left: 1rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: $color-dark-green;
+    
+    @include desktop{
+        width: 200px;
+    }
+}
+.location{
+    margin-top: 4px;
+    margin-bottom:0;
+    margin-left: 1rem;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: $color-dark-green;
+}
+.vid-image{
+    width: 110%;
+    height: 7rem;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    @include tablet{
+        width: 100%;
+        margin-right: 2rem;
+    }
+    @include tabletExt{
+        width: 35%;
+    }
+    @include desktop{
+        width: 35%;
+    }
+    @include desktopWide{
+        width: 140%;
+        height: 140px;
+    }
+}

@@ -1,0 +1,61 @@
+$color-light-green: #2b4d39;
+
+.form-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+form{
+margin-left: 2rem;
+width: 101%;
+margin-left: 2.5rem;
+}
+.upload-title{
+   color: $color-light-green;
+   font-family: sans-serif; 
+   margin-left: 1rem;
+   font-size: 3rem;
+}
+
+.upload-subtitles{
+    color: #AfAfAf;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    font-size: 1rem;
+    width: 90%;
+}
+.userDescription-input,
+.userName-input
+{
+    width: 90%;
+    border: 1px #E1E1E1 solid;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    height: 5rem;
+    font-family: "avenir-medium";
+    color: #323232;
+    padding-left: 0.65rem;
+    padding-top: 0.65rem;
+}
+.upload-image {
+    width: 91%;
+    height: 45vh;
+    border-radius: 5px;
+    border-color: white;
+    
+}
+.btn-publish{
+    width: 91%;
+    background-color: $color-light-green;
+    border: $color-light-green;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0.65rem;
+    margin-bottom: 2rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 0.65rem;
+}
