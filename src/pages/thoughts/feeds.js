@@ -26,6 +26,7 @@ export class TwitterFeed extends Component {
           screenName="cryptovoxels"
           options={{ height: 700 }}
         />
+        <div className="space"></div>
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="MuseumofCrypto"

@@ -25,7 +25,7 @@ class MainVideoTitle extends React.Component {
               <p>{this.props.videoDetails.views}</p>
             </div> */}
           {/* </div> */}
-          <p className="VRinstructions"><img className="icons" src={eye} alt="eye symbol for views" />Enter the exhibition seen above by clicking on the screen. Moving your finger on your track pad will determine the direction you are looking. Using your arrow keys you can move around the galleries and up stairs (you can even swim!). On the screen you will also see a four-way directional tool that can be used instead of your track-pad or arrow keys.</p>
+          <p className="VRinstructions"><img className="icons" src={eye} alt="eye symbol for views" />Enter the exhibition seen above by clicking on the screen. Moving your finger on your track pad will determine the direction you are looking. Using your arrow keys you can move around the galleries and up stairs (you can even swim!). On the screen you will also see a four-way directional tool that can be used instead of your track-pad or arrow keys. To exit the exhibition press your 'esc' key.</p>
           <div className="body">
             <p>{this.props.videoDetails.description}</p>
           </div>

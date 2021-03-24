@@ -7,7 +7,7 @@ import MainVideoTitle from "./components/MainVideoTitle";
 import axios from "axios";
 
 
-const apiUrl="http://localhost:3001";
+const apiUrl="https://cubes-server.herokuapp.com";
 
  
 class App extends Component {
