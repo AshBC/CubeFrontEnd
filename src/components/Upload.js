@@ -22,7 +22,7 @@ class Upload extends Component {
 
     postNewVideo = () => {
         axios
-        .post(`http://localhost:3001/videos`, {
+        .post(`https://cubes-server.herokuapp.com/videos`, {
             name: this.state.uploadTitle,
             channel: this.state.onlineSpace,
             description: this.state.uploadDescription,

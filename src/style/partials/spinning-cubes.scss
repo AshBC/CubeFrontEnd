@@ -28,7 +28,7 @@ $animation-duration: 12s;
       width:70%;
     }
     @include desktopWide{
-      width:79%;
+      width:84.4%;
     }
 }
 
@@ -41,7 +41,7 @@ $animation-duration: 12s;
 
 .welcome-paragraph{
 
-  justify-content: center;
+  // justify-content: center;
   color: $color-dark-green;
   font-family: sans-serif;
   font-weight: 600;
@@ -54,8 +54,12 @@ $animation-duration: 12s;
     justify-content: center;
     width: 69%;
   }
-  @include tablet{
-    width: 80vw
+  // @include tablet{
+  //   width: 80vw
+  // }
+@include desktopWide{
+  width: 85vw;
+  padding-left: 4rem;
   }
 }
 
