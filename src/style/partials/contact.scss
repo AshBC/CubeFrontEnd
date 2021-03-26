@@ -1,0 +1,93 @@
+
+.top-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 168, 168);
+    color: #16251c;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-top: 0;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+.news{
+    background-color: rgb(226, 168, 168);
+    font-size: 45px;
+}
+.contact-info{
+    background-color: rgb(226, 168, 168);
+    font-size: 28px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(226, 168, 168);
+}
+.link{
+    margin:0;
+    padding: 0;
+    background-color: rgb(226, 168, 168)
+}
+.border{
+    background-color: rgb(226, 168, 168)
+}
+
+.action-buttons{
+    width: 30vw;
+    height: 90px;
+    align-content: center;
+    background-color: white;
+    margin: 1rem;
+    color: #2b4d39;
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    border:#2b4d39 3px solid;
+}
+.tool-logos{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+
+}
+.logos{
+    width: 15%;
+    height: 15%;
+    margin-left: 1rem;
+}
+
+.cube-frame{
+    width: 100vw;
+    color: #16251c;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin-left: 0;
+    margin-top: 0;
+}
+.bottom-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(226, 168, 168);
+    color: #16251c;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100vw;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+

@@ -10,7 +10,7 @@ function Header(props) {
     return (
         <header className="header">
             <nav className="header__links header__links--left">
-                <Link to="/"><img className="logo" src={logo} /></Link>
+                <Link to="/contact"><img className="logo" src={logo} /></Link>
             </nav>
             <div className="btn-pic">
                 <DropDown />

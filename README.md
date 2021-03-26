@@ -1,3 +1,10 @@
+# This React App Has Been Deployed Using Separate Git Repositories for the Server and the Front End + Launched Separately using Heroku. These can be viewed online use:
+
+Server: https://cubes-server.herokuapp.com/
+Front-end: https://cubes-frontend.herokuapp.com/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

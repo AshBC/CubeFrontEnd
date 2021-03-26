@@ -9,6 +9,7 @@ import Trending from "./pages/trending/trending";
 import SpinningCubes from "./pages/spinning_cubes/spinningCubes.js";
 import BuySR from "./pages/tobuy/toBuySuperRare";
 import LikesViews from "./pages/thoughts/feeds";
+import Contact from "./pages/contact/contact";
 
 import "./style/all.scss";
 
@@ -25,7 +26,8 @@ ReactDOM.render(
         <Route path="/thoughts" component={LikesViews} />
         <Route path="/videos" component={App} exact/>
         <Route path="/videos/:id" component={App} exact/>
-        <Route path="/upload" component={Upload} exact /> 
+        <Route path="/upload" component={Upload} exact />
+        <Route path="/contact" component={Contact} /> 
         <Route path="/*"><Redirect to="/"/></Route>
       </Switch>
     </Router>

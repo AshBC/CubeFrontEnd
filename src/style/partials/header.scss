@@ -55,7 +55,7 @@ $color-dark-green: #16251c;
     padding-right: 0;
 
     @include tablet{
-        width: 190px;
+        width: 140px;
     }
     @include tabletExt{
         width:260px;
@@ -101,8 +101,8 @@ $color-dark-green: #16251c;
         margin-left: 1rem; 
         font-size: 1.2rem;
         font-family: sans-serif;
-        max-width: 7.5rem;
-        min-width: 7.5rem;
+        max-width: 7rem;
+        min-width: 7rem;
         text-decoration: none;
     }
     @include tabletExt{

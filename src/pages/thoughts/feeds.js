@@ -19,13 +19,20 @@ export class TwitterFeed extends Component {
     return (
       <div>
         <div className="feedContainer">
-        <h2 className="feedDescrip">It has been said twitter is the space of crypto creators and their dialogue...</h2>
+          <h2 className="feedDescrip">
+            It has been said twitter is the space of crypto creators and their
+            dialogue...
+          </h2>
         </div>
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="cryptovoxels"
           options={{ height: 700 }}
         />
+        {/* <TwitterShareButton
+          url={"https://facebook.com/saurabhnemade"}
+          options={{ text: "#reactjs is awesome", via: "saurabhnemade" }}
+        /> */}
         <div className="space"></div>
         <TwitterTimelineEmbed
           sourceType="profile"
