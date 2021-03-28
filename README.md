@@ -1,9 +1,11 @@
-# This React App Has Been Deployed Using Separate Git Repositories for the Server and the Front End + Launched Separately using Heroku. These can be viewed online use:
+# This React App Has Been Deployed Using separate Git Repositories for the Server and the Front End + Launched Separately using Heroku. These can be viewed online use:
 
 Server: https://cubes-server.herokuapp.com/
 Front-end: https://cubes-frontend.herokuapp.com/
 
+# You will see there is a toBuyOS.js page that was made for the Opensea Api however that Api is waiting for a key from their developers and has been acting to glitchy to include. So I have shut it down for submission. However I wanted to show all the work I had done. You will see the SuperRare page continues to function using their public Api.
 
+# The mix-ins and Variable were not grouped to gether in the Style sheet as this did not seem to work for 3D components etc. 
 
 # Getting Started with Create React App
 

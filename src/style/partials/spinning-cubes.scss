@@ -54,9 +54,7 @@ $animation-duration: 12s;
     justify-content: center;
     width: 69%;
   }
-  // @include tablet{
-  //   width: 80vw
-  // }
+
 @include desktopWide{
   width: 85vw;
   padding-left: 4rem;

@@ -15,19 +15,18 @@ class Trending extends React.Component {
             presented internationally at digital art events such as Mapping
             Festival (GE), Mirage Festival (FR), Dutch Design Week (NL), SONAR+D
             (ES) and at the Ludwig Museum (HU).
-            <p>          </p>
-          <p>
-            Deciding what is great work can be narrowed down by considering a
-            few aesthetic categories in which one could compare makers (not
-            unlike how curators have operated for centuries). These categories
-            are arguably: audio visual NFT’s, hyperreal, glitch, fantasy,
-            collage, mixed media and what I will call ‘cycodel-pic’. However, in
-            my opinion what was true remains true, a great work is made great by
-            it’s ability to inflect meaning, entertain or inspire, resonate or
-            question. Without it even something beautiful falls flat. The work
-            pictured by Dimension Master was the only work I could find by this
-            creator, it falls within the hyperreal aesthetic and paired with
-            it’s title, for me it felt immediately relevant.
+            <p> </p>
+            <p>
+              Deciding what is great work can be narrowed down by considering a
+              few aesthetic categories in which one could compare makers (not
+              unlike how curators have operated for centuries). Within web-based
+              art these categories are arguably: audio visual NFT’s, hyperreal,
+              glitch, fantasy, collage, mixed media (reproductions of physical
+              works mixed with digitally made works) and what I will call
+              ‘psychedel-pic’. However, in my opinion what was true remains
+              true, a great work is made great by it’s ability to inflect
+              meaning, entertain or inspire, resonate or question. Without it
+              even something beautiful falls flat.
             </p>
           </p>
         </div>
@@ -43,23 +42,26 @@ class Trending extends React.Component {
         </div>
         <div className="container-right">
           <p className="trending-tip">
-            Anonymity is not a value indicator in web-based-art world. Certainly
-            there a quickly becoming a group of ‘known’ artists that are being
-            validated by the traditional art market; that is arguably just
-            trying to hold some piece of a pie made to disclude them.
-            Traditional collectors remain largely uncomfortable in the crypto
-            space making it easy for institutions like auction houses to push
-            back by offering their services as arbitrators of value. 
-            <p>            </p>
-            <p>However
-            this new frontier offers something the old one did not — direct
-            access to conversations with artists and other collectors who are
-            openly sharing and actively trading what they have. The stigma of
-            auctioning works recently purchases in the physical world is
-            reversed in the crypto space, where value increases the more a work
-            is ‘seen’ and shared. Each transaction happening through blockchain,
-            artists earn royalties embedded in the transaction, addressing the
-            inequities of exchanges of wealth that solely benefit collections.
+            Anonymity is not a value indicator in web-based-art collecting.
+            Certainly there are quickly becoming a group of ‘known’ artists that
+            are being validated by the traditional art market; the auction
+            houses that are arguably trying to hold some piece of a pie made to
+            disclude them. Because traditional collectors remain largely
+            uncomfortable in the crypto space institutions like auction houses
+            are able to maintain their position as experts by offering their
+            services as arbitrators of value.
+            <p> </p>
+            <p>
+              However this new frontier offers something the old one did not —
+              direct access to conversations with artists and other collectors
+              who are openly sharing and actively trading what they have. The
+              stigma of auctioning works recently purchased in the physical
+              world is reversed in the crypto space, where value increases the
+              more a work is ‘seen’, shared and sold. Each transaction happening
+              through blockchain, artists earn royalties embedded in the
+              transaction, addressing the inequities of the auction house or
+              gallery systems in which exchanges of wealth solely benefit
+              collections.
             </p>
           </p>
         </div>

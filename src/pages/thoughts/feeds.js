@@ -24,22 +24,23 @@ export class TwitterFeed extends Component {
             dialogue...
           </h2>
         </div>
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="cryptovoxels"
-          options={{ height: 700 }}
-        />
-        {/* <TwitterShareButton
-          url={"https://facebook.com/saurabhnemade"}
-          options={{ text: "#reactjs is awesome", via: "saurabhnemade" }}
-        /> */}
-        <div className="space"></div>
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="MuseumofCrypto"
-          options={{ height: 700 }}
-        />
-
+        <div className="feed">
+          <TwitterTimelineEmbed
+            sourceType="profile"
+            screenName="cryptovoxels"
+            options={{ height: 700 }}
+          />
+          <TwitterShareButton
+            url={"https://facebook.com/saurabhnemade"}
+            options={{ text: "#reactjs is awesome", via: "saurabhnemade" }}
+          />
+          <div className="space"></div>
+          <TwitterTimelineEmbed
+            sourceType="profile"
+            screenName="MuseumofCrypto"
+            options={{ height: 700 }}
+          />
+        </div>
         <Header />
       </div>
     );
