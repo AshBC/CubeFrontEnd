@@ -21,7 +21,12 @@
 @mixin vWide {
     @media screen and (min-width: 1130px){
         @content;
-    }    
+    } 
+}
+@mixin vWW {
+        @media screen and (min-width: 1300px){
+            @content;
+        }    
 }
 
 .side-bar{
@@ -54,7 +59,7 @@
     }
 }
 .vid-title_name{
-    width: 45%;
+    width: 50%;
     padding-right: 5px;
     position: absolute;
     top: 5;
@@ -81,8 +86,11 @@
         margin-left: 17rem;
     }
     @include vWide{
-        margin-left: 18rem;
+        margin-left: 16rem;
         width: 47%;
+    }
+    @include vWW{
+        margin-left: 21rem;
     }
 }
 .vidT{
@@ -91,6 +99,7 @@
     font-family: sans-serif;
     font-size: 1.2rem;
     color: $color-dark-green;
+    width: 60%;
 
     @include desktop{
         width: 155px;
@@ -120,7 +129,7 @@
     overflow: hidden;
     margin-bottom: 1rem;
     @include tablet{
-        width: 90%;
+        width: 110%;
         margin-right: 2rem;
     }
     @include tabletExt{
