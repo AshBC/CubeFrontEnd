@@ -28,7 +28,7 @@ function QuickBuySR(props) {
                   <h2 className="artist">{artwork.username}</h2>
                   <h3 className="artDescription">{artwork.description}</h3>
                   <a href={artwork.url} className="seller">
-                    <h3>Super Rare ➝ ⟼ ⤑ ⇀</h3>
+                    <h3>Super Rare ➝ </h3>
                   </a>
                 </div>
               </li>

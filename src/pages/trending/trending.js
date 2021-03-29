@@ -38,7 +38,7 @@ class Trending extends React.Component {
             border="0"
             src="https://superrare.co/baronlanteigne"
           ></iframe>
-          ;
+          
         </div>
         <div className="container-right">
           <p className="trending-tip">
@@ -73,7 +73,7 @@ class Trending extends React.Component {
             border="0"
             src="https://opensea.io/assets/0x60f80121c31a0d46b5279700f9df786054aa5ee5/502957"
           ></iframe>
-          ;
+          
         </div>
         <Header />
       </div>

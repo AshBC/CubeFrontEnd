@@ -51,8 +51,9 @@ $color-dark-green: #16251c;
 .logo{
     display: flex;
     justify-content: center;
-    width:190px;
+    width:170px;
     padding-right: 0;
+    margin-right:0;
 
     @include tablet{
         width: 190px;

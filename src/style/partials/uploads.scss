@@ -1,3 +1,10 @@
+
+@mixin desktopWide{
+    @media screen and (min-width: 1090px){
+     @content;   
+    }
+}
+
 $color-light-green: #2b4d39;
 
 .form-page{
@@ -29,7 +36,7 @@ margin-left: 2.5rem;
 .userDescription-input,
 .userName-input
 {
-    width: 90%;
+    width: 87%;
     border: 1px #E1E1E1 solid;
     background-color: #FAFAFA;
     border-radius: 3px;
@@ -38,16 +45,21 @@ margin-left: 2.5rem;
     color: #323232;
     padding-left: 0.65rem;
     padding-top: 0.65rem;
+    @include desktopWide{
+        width: 90%;
+    }
 }
 .upload-image {
-    width: 91%;
+    width: 88%;
     height: 45vh;
     border-radius: 5px;
     border-color: white;
-    
+    @include desktopWide{
+        width: 91%;
+    }
 }
 .btn-publish{
-    width: 91%;
+    width: 88%;
     background-color: $color-light-green;
     border: $color-light-green;
     border-radius: 3px;
@@ -59,4 +71,7 @@ margin-left: 2.5rem;
     font-size: 2rem;
     font-weight: 500;
     margin-top: 0.65rem;
+    @include desktopWide{
+        width: 91%;
+    }
 }

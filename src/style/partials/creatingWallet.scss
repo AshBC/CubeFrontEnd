@@ -1,3 +1,9 @@
+@mixin tablet{
+    @media screen and (min-width: 710px){
+    @content;
+    } 
+}
+
 .row-one{
     display: flex;
     flex-flow: row wrap;
@@ -8,13 +14,21 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+
+@include desktop{
     margin-top: 2rem;
+}
 }
 
 .steps{
     height: 400px;
     width: 380px;
+    margin-bottom: 1rem;
+    @include tablet{
     margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    }
 }
 
 .walletDescrip{
@@ -23,12 +37,15 @@
     font-family: sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-right: 1rem;
     padding-left: 2.5rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
     margin-left: 0;
     margin-top: 0;
     height: 80px;
+    @include tablet{
+        font-size: 2rem;
+    }
 }

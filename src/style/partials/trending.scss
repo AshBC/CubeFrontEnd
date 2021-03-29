@@ -1,3 +1,8 @@
+@mixin tablet{
+    @media screen and (min-width: 880px){
+    @content;
+    } 
+}
 .trending-page{
     width: 100vw;
 }
@@ -7,13 +12,16 @@
     font-family: sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-right: 1rem;
     padding-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-left: 0;
     margin-top: 0;
+    @include tablet{
+        font-size: 2rem;
+    }
 }
 .trending-tip{
     display: flex;
@@ -33,12 +41,12 @@
     @include tablet{
     margin: 0;
     width: 42vw;
-    height: 68vh;
-    font-size: 1.3rem;
+    height: 420px;
+    font-size: 0.95rem;
     } 
     @include desktop{
         height: 70vh;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -64,10 +72,10 @@
     }
 }
 .container-left{
-    width: 90vw;
     margin-left: 2rem;
     @include tablet{
     margin-left: 1rem;
+    width: 20vw;
     }
     @include desktop{
         margin-left: 3.5rem;
