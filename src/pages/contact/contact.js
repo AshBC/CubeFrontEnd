@@ -13,7 +13,7 @@ export class Contact extends Component {
       <div>
         <Header />
         <div className="top-row">
-          <h1 className="news">Launch Date April 20, 2021 @ CubeTube.art</h1>
+          <h1 className="news">Launching @ CubeTube.art</h1>
 
           <h2 className="contact-info">
             Contact Developer: AConery (at) gmail.com
