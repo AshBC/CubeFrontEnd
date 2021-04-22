@@ -19,7 +19,7 @@ class SpinningCubes extends React.Component {
           </div>
 
           <div className="cube">
-            <Link to="/upload">
+            <Link to="/contact">
               <div className="title"></div>
               <div></div>
               <div className="title">+ your Exhibition to the list</div>
