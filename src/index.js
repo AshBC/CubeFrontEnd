@@ -22,11 +22,11 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route path="/" component={SpinningCubes} exact />
+        <Route path="/" component={CreateWallet} exact />
         <Route path="/exhibitions" component={App} />
         {/* <Route path="/toBuyOS" component={ToBuyOS} /> */}
         <Route path="/buySR" component={BuySR} />
-        <Route path="/createWallet" component={CreateWallet} />
+        <Route path="/createWallet" component={SpinningCubes} />
         <Route path="/trending" component={Trending} />
         <Route path="/thoughts" component={LikesViews} />
         <Route path="/videos" component={App} exact />
