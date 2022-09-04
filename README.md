@@ -5,11 +5,9 @@ Front-end: https://cubes-frontend.herokuapp.com/
 
 # You will see there is a toBuyOS.js page that was made for the Opensea Api however that Api is waiting for a key from their developers and has been acting too glitchy to include. So I have shut it down for submission. However I wanted to show all the work I had done, so left the code in. You will see the SuperRare page continues to function using their public Api.
 
-# The describe tour included on the exhibitions page is a crappy example. I wanted to show the functionality of the player but lease don't listen all the way through it is embarrassing.
+# The describe tour included on the exhibitions page is a crappy example. I wanted to show the functionality of the player but please don't listen all the way through it is embarrassing.
 
-# The mix-ins and Variable were not grouped to gether in the Style sheet as this did not seem to work for 3D components etc. 
-
-# Getting Started with Create React App
+# The mix-ins and variables were not grouped together in the Style sheet as this did not seem to work for 3D components etc. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
